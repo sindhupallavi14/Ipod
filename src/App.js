@@ -8,13 +8,13 @@ import podcast from "./Podcast-img.jpeg";
 import games from "./Games-img.jpeg";
 import albums from "./Albums.jpeg";
 import artists from "./artists.jpeg";
-import HeyMinnale from "./Hey Minnale.mp3";
-import Chakori from "./Chakori.mp3";
-import Chuttamalle from "./Chuttamalle.mp3";
-import Emsandhemledu from "./Em Sandheham Ledhu.mp3";
-import Evare from "./Evare.mp3";
-import Evarevaro from "./Evarevaro.mp3";
-import Kailove from "./Kailove.mp3";
+import HeyMinnale from "./songs./Hey Minnale.mp3";
+import Chakori from "./songs./Chakori.mp3";
+import Chuttamalle from "./songs./Chuttamalle.mp3";
+import Emsandhemledu from "./songs./Em Sandheham Ledhu.mp3";
+import Evare from "./songs./Evare.mp3";
+import Evarevaro from "./songs./Evarevaro.mp3";
+import Kailove from "./songs./Kailove.mp3";
 
 class App extends React.Component
 {
