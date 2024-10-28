@@ -3,11 +3,11 @@ import React from "react";
 import "./Ipod.css"
 import ZingTouch from 'zingtouch';
 import Ipodcon from "./Ipodcon";
-import Settings from "./settings.jpg";
-import podcast from "./Podcast-img.jpeg";
-import games from "./Games-img.jpeg";
-import albums from "./Albums.jpeg";
-import artists from "./artists.jpeg";
+import Settings from "./Images./settings.jpg";
+import podcast from "./Images./Podcast-img.jpeg";
+import games from "./Images./Games-img.jpeg";
+import albums from "./Images./Albums.jpeg";
+import artists from "./Images./artists.jpeg";
 import HeyMinnale from "./songs./Hey Minnale.mp3";
 import Chakori from "./songs./Chakori.mp3";
 import Chuttamalle from "./songs./Chuttamalle.mp3";
