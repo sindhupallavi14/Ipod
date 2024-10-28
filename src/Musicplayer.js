@@ -1,5 +1,5 @@
 import React from "react";
-import songplay from "./Images./song-play.jpeg";
+import songplay from "./Images/song-play.jpeg";
 class Musicplayer extends React.Component
 {
    render()

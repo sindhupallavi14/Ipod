@@ -3,18 +3,18 @@ import React from "react";
 import "./Ipod.css"
 import ZingTouch from 'zingtouch';
 import Ipodcon from "./Ipodcon";
-import Settings from "./Images./settings.jpg";
-import podcast from "./Images./Podcast-img.jpeg";
-import games from "./Images./Games-img.jpeg";
-import albums from "./Images./Albums.jpeg";
-import artists from "./Images./artists.jpeg";
-import HeyMinnale from "./songs./Hey Minnale.mp3";
-import Chakori from "./songs./Chakori.mp3";
-import Chuttamalle from "./songs./Chuttamalle.mp3";
-import Emsandhemledu from "./songs./Em Sandheham Ledhu.mp3";
-import Evare from "./songs./Evare.mp3";
-import Evarevaro from "./songs./Evarevaro.mp3";
-import Kailove from "./songs./Kailove.mp3";
+import Settings from './Images/settings.jpg';
+import podcast from "./Images/Podcast-img.jpeg";
+import games from "./Images/Games-img.jpeg";
+import albums from "./Images/Albums.jpeg";
+import artists from "./Images/artists.jpeg";
+import HeyMinnale from "./songs/Hey Minnale.mp3";
+import Chakori from "./songs/Chakori.mp3";
+import Chuttamalle from "./songs/Chuttamalle.mp3";
+import Emsandhemledu from "./songs/Em Sandheham Ledhu.mp3";
+import Evare from "./songs/Evare.mp3";
+import Evarevaro from "./songs/Evarevaro.mp3";
+import Kailove from "./songs/Kailove.mp3";
 
 class App extends React.Component
 {
