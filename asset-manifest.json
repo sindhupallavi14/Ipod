@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Ipod/static/css/main.2f77ee0d.css",
+    "main.js": "/Ipod/static/js/main.a18306ae.js",
+    "static/media/Evarevaro.mp3": "/Ipod/static/media/Evarevaro.4a87ab72a04887a8ff53.mp3",
+    "static/media/Chuttamalle.mp3": "/Ipod/static/media/Chuttamalle.d910c4ae404acac691aa.mp3",
+    "static/media/Chakori.mp3": "/Ipod/static/media/Chakori.25e06c6e629033738554.mp3",
+    "static/media/Evare.mp3": "/Ipod/static/media/Evare.8ab5b7f2ebe49e3e6a17.mp3",
+    "static/media/Kailove.mp3": "/Ipod/static/media/Kailove.46d0fcb21aee2315428b.mp3",
+    "static/media/Em Sandheham Ledhu.mp3": "/Ipod/static/media/Em Sandheham Ledhu.002e0d3f74dc1d6fe60f.mp3",
+    "static/media/Hey Minnale.mp3": "/Ipod/static/media/Hey Minnale.5164078be5f15587fbf1.mp3",
+    "static/media/settings.jpg": "/Ipod/static/media/settings.2730a9726e33613479cb.jpg",
+    "index.html": "/Ipod/index.html",
+    "main.2f77ee0d.css.map": "/Ipod/static/css/main.2f77ee0d.css.map",
+    "main.a18306ae.js.map": "/Ipod/static/js/main.a18306ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f77ee0d.css",
+    "static/js/main.a18306ae.js"
+  ]
+}
