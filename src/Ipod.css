@@ -1,0 +1,251 @@
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.ipodcon {
+    background-color: rgb(119, 119, 119);
+    width: 20vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    box-shadow:  0px 2px 66px 10px #0000004d;
+}
+.ipodcon1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyInCEB1qqlQxeAsB_twxnZj4h7j6DfI8_YA&s");
+    background-size: cover;
+    background-position: center;
+    width: 92%;
+    height: 60%;
+    margin: 7px;
+    border-radius:4%;
+    text-align: center;
+    position: relative;
+    /* overflow: hidden; */
+}
+.ipodcon2{
+    background-color: rgb(190, 197, 190);
+    width: 200px;
+    height: 225px;
+    margin: 7px;
+    border-radius:50%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.center 
+{
+   background-color: rgb(47, 48, 51);
+   width: 60%;
+   height: 60%;
+   margin: 7px;
+   border-radius:inherit;
+   text-align: center;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+   cursor: pointer;
+   border: none;
+}
+
+.menu-button {
+	position: absolute;
+	top: 0px;
+	height: 25%;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.play-pause{
+  position: absolute;
+	bottom: 0px;
+	height: 25%;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.left-button
+{
+  position: absolute;
+	left: 5px;
+	height: 25%;
+	width: 50%;
+	display: flex;
+	align-items: center; 
+	font-size: 20px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.right-button
+{ 
+  position: absolute;
+	right: -30px;
+	height: 25%;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.menu-con
+{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    box-shadow: 0px 0.8px 10px black;
+    border-radius: inherit;
+    left: 0%;
+    width: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition:all  0.3s ease-in;
+    margin-top: 0px;
+    position: absolute;
+    z-index: 8;
+}
+.menu-items div{
+  background-color: rgb(81, 77, 80);
+  color: rgb(235, 239, 245);
+  font-size: 18px;
+  margin: auto;
+  height: 50px;
+}
+.menu-items hr{
+  margin: auto;
+}
+.menu-items div h2{
+  margin: auto;
+}
+.select{
+  background-color: rgb(180, 193, 197) !important;
+  color: rgb(4, 27, 47) !important    ;
+}
+.width-50{
+  width: 50%;
+}
+.ipod-menu{
+  background-color: rgb(110, 91, 87);
+  color: rgb(240, 243, 245);
+  font-size: 19px;
+  /* margin: auto; */
+  margin-bottom: 8px;
+}
+.ipod-menu h3{
+  margin: auto;
+}
+.ipod-menu hr{
+  margin: auto;
+}
+
+.song_screen
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(84, 74, 80);
+  box-sizing: border-box;
+  overflow: hidden; 
+  border-radius: inherit;
+  position: absolute;
+  
+}
+
+.sel-song{
+  background-color: rgb(109, 97, 111);
+  color: rgb(26, 8, 44);
+  text-align: center;
+}
+
+.songs-heading{
+  background-color: rgb(59, 50, 50);
+  color: aliceblue;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+.songs-heading h3{
+  margin:0;
+}
+.song h4{
+  color: aliceblue;
+  text-align: center;
+    margin: auto;
+}
+.song{
+  padding-bottom: 10px;
+}
+
+.xtra
+{
+   color:red;
+   
+}
+
+.music_con
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(43, 178, 251);
+  overflow: hidden; 
+  border-radius: inherit;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  
+  left:0;
+  top:0;
+}
+
+
+.song_img
+{
+  height:120px;
+  width: 120px;
+  border: 2px white solid;
+  border-radius: 10px;
+  box-shadow: 1px 0.8px 15px black;
+  margin-bottom: 8px;
+}
+
+.audio_cntrl
+{
+  height:40px;
+  width:90%;
+
+}
+
+.music_con h3
+{
+   color: aliceblue;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
